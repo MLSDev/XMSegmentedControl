@@ -57,7 +57,7 @@ public enum XMSegmentItemWidthDistribution {
 @IBDesignable
 open class XMSegmentedControl: UIView {
 
-    open var delegate: XMSegmentedControlDelegate?
+    open weak var delegate: XMSegmentedControlDelegate?
     fileprivate var highlightView: UIView!
     
     /**
